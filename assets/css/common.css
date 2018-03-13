@@ -1,0 +1,34 @@
+body{
+	font-size: 22px;
+	margin-left: 100px;
+	line-height: 50px;
+}
+.first{
+    color: blue;
+    font-family: 'pacificoregular';
+}
+.second{
+    color: green;
+    font-family: 'yanone_kaffeesatzbold';
+}
+.first .zas1:hover{
+    background-color: grey;
+}
+.first .zas2:before{
+	display: inline-block;
+	content: '"';
+}
+.first .zas3:after{
+	display: inline-block;
+	content: '123';
+}
+.first .zas4:active{
+	background-color: red;
+}
+.first>li:first-child {
+	background-color: red;
+}
+.second>li:nth-child(2n+1){
+	display: block;
+     background-color: gold;
+}
